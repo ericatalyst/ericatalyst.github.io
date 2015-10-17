@@ -1,0 +1,75 @@
+body {
+	font-family: sans-serif;
+	color: #333;
+	margin: 0px;
+}
+header {
+	text-align: center;
+	background: url(images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+header img {
+	border: 3px solid #fff;
+	border-radius: 50%;
+	padding: 10px;
+}
+a {
+	color: #339988;
+}
+h1 {
+	color: #ffffff;
+	font-size: 48px;
+}
+h1, h2 {
+  font-family: "Bitter", sans-serif;
+}
+p, ul, ol {
+	line-height: 1.5;
+}
+#about {
+	background: #FFCA59;
+}
+.links h2 {
+	color: #FF572B;
+}
+.stacked {
+	padding: 50px 100px;
+}
+.contact {
+    text-align: center;
+    color: #FFF;
+    background: url(images/dark_embroidery.png);
+}
+.contact img {
+	width: 100px;
+	margin: 10px;
+	border-radius: 50%;
+	border: none;
+}
+.contact img:hover {
+	opacity: 0.5;
+}
+ul.websites {
+    padding: 0;
+}
+
+ul.websites li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.websites a {
+	background: #38A88F;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 24px;
+	display: block;
+}
+
+.websites a:hover {
+	background: #666;
+}
