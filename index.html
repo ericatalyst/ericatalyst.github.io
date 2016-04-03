@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>ENR's WWC Page</title>
-	<link href="styles.css" rel="stylesheet" type="text/css">
-		</head>
-			<body>
-				<header>
-				<section id= "about">
-					<h1><strong>About ERICA</strong></h1>
-			<p>I am definitely not a software engineer yet!</p>
-		</section>
-			<img src="http://usercontent2.hubimg.com/8761419_f260.jpg" title="ERICA, learning HTML" />
-				</header>
-				<section class= "favorite stacked">
-			<h2>My Favorite Sites</h2>
-			<ul class= "websites">
-				<li><a href="https://www.etsy.com"> Etsy</a> </li>
-				<li><a href="http://www.twitter.com">Twitter </a> </li>
-				<li> <a href="http://www.instagram.com"> Instagram </a> </li>
-			</ul> 
-				</section>
-			<section id="plans">
-			<h2>My Weekend Plans</h2>
-			<ol>
-				<li>Open House NY</li>
-				<li>Women Who Code</li>
-				<li>Gowanus Music Show</li>
-			</ol>
-			</section>
-				<section id="contact">
-			<h2>Contact ERICA</h2>
-			<a href="http://www.twitter.com/ericatalyst"><img src="images/twitter.png"></a> 
-			<a href="http://www.instagram.com/ericatalyst"> Instagram </a> 
-			<a href="mailto:erica825978@gmail.com"><img src="images/email.png"></a>
-				</section>
-			</body>
-	</html>
+  <head>
+    <meta charset="utf-8">
+    <title>Music Mashups</title>
+  </head>
+  <body>
+    <h1>Enjoy Mashups!</h1>
+    <h3>*Evolving Existing Music*</h3>
+    <p><strong>What are Mashups?</strong> As a musical term, a mashup is a form of remixing
+      that takes two or more songs and layers them together. Some mashups use the lyrics
+      of one song over the beat from another. Some mashups take a large number of songs
+      (such as the top 100 pop songs released in a year) and play them back to back. </p>
+      <div>
+        <p> A well-known mashup album is by DJ Danger Mouse. It is called "The Grey Album" and
+          it only uses music from The Beatles' "The White Album" and Jay-Z's "The Black Album."</p>
+        <img src="GreyAlbum.jpg" alt="Grey Album Cover"/> </div>
+  <div>
+    <p> The example mashup below is of Beethoven's "Moonlight Sonanta" and The Eagles'
+      "Hotel California." Skip ahead to 1:50 for the music to begin.</p>
+    <br> <iframe width="560" height="315" src="https://www.youtube.com/embed/1R8twt0ggAQ" frameborder="0" allowfullscreen></iframe>
+  <br> </div>
+  <h3>Places to Discover Mashups</h3>
+          <ul>
+            <li><a href= "https://www.youtube.com/results?search_query=mashups">YouTube</a></li>
+            <li><a href= "https://soundcloud.com/search/sounds?q=mashups&filter.genre_or_tag=mashup">SoundCloud</a></li>
+            <li>Many host music on their own personal <a href= "http://www.pomdeter.com/mashups/archive/best_of/pomDeter%20-%20Call%20Me%20A%20Hole%28really%20bad%20Friday%20night%29.mp3">websites</a></li>
+<div>
+    <h3>Please take part in our survey!</h3>
+      <form action="thanks.html" method="post">
+        <div>
+        <label>Pick the music genre you listen to most frequently</label> <br>
+        <input type="radio" name="music" value="pop"> Pop<br>
+        <input type="radio" name="music" value="rock"> Rock<br>
+        <input type="radio" name="music" value="rap"> Rap<br>
+        <input type="radio" name="music" value="country"> Country<br>
+        <input type="radio" name="music" value="soul-blues"> Soul/Blues<br>
+        <input type="radio" name="music" value="classical"> Classical
+      </div><br>
+      <div>
+        <label>Pick the musical era you enjoy the most</label>
+        <select name="MusicEra">
+          <option value="Current">Current</option>
+          <option value="90s">90s</option>
+          <option value="80s">80s</option>
+          <option value="70s">70s</option>
+          <option value="60s or Earlier">60s or Earlier</option>
+        </select>
+      </div><br>
+      <div>
+      <label>Name a musical artist you would like to see in a mashup</label>
+      <input type="text" name="artist">
+    </div><br>
+      <button type="submit">Submit Survey</button>
+      </form>
+    </div> <br> <br>
+    <footer> This page is part of an <a href="https://www.reddit.com/r/mashups"> online
+      community</a> where people can discover mashups. The
+      site is superior to mine because it allows users to log in to their own
+      accounts, make individual posts, and rate one anothers posts. The posts that
+    appear towards the top of the page are sorted there by an algorithm that takes
+  into account the amount of time the post has been on the website and the amount
+  of votes it has recieved."</footer>
+  </body>
+</html>
