@@ -3,32 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>Music Mashups</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Enjoy Mashups!</h1>
-    <h3>*Evolving Existing Music*</h3>
-    <p><strong>What are Mashups?</strong> As a musical term, a mashup is a form of remixing
-      that takes two or more songs and layers them together. Some mashups use the lyrics
-      of one song over the beat from another. Some mashups take a large number of songs
-      (such as the top 100 pop songs released in a year) and play them back to back. </p>
-      <div>
-        <p> A well-known mashup album is by DJ Danger Mouse. It is called "The Grey Album" and
-          it only uses music from The Beatles' "The White Album" and Jay-Z's "The Black Album."</p>
-        <img src="GreyAlbum.jpg" alt="Grey Album Cover"/> </div>
-  <div>
-    <p> The example mashup below is of a remixed <strong>Bacon Pancakes</strong> from Advenutre Time
-      and Alicia Keys' <strong>New York</strong>.</p>
-    <br> <iframe width="560" height="315" src="https://www.youtube.com/embed/cUYSGojUuAU" frameborder="0" allowfullscreen></iframe>
-  <br> </div>
-  <h3>Places to Discover Mashups</h3>
+    <h1>MASHUPS</h1><h3>The evolution of existing music...</h3>
+      <p id=intropar>
+        <strong>What are Mashups?</strong> As a musical term, a mashup is a form of remixing
+        that takes two or more songs and layers them together. Some mashups use the lyrics
+        of one song over the beat from another. Some mashups take a large number of songs
+        (such as the top 100 pop songs released within a year) and play them back to back.
+      </p>
+    <div class=example>
+        <img id=greypic src="GreyAlbum.jpg" alt="Grey Album Cover"/>
+        <p id=greypiccaption>
+          One well-known mashup album is by DJ Danger Mouse. It is called "The Grey Album"
+          and it only uses music from The Beatles' "The White Album" and Jay-Z's "The Black
+          Album."
+        </p>
+    </div>
+    <div class=example>
+      <p id=bananacaption> The example mashup below is of a remixed dialogue (<strong>Bacon Pancakes</strong>)
+        from Advenutre Time and Alicia Keys' <strong>New York</strong>.
+      </p>
+      <iframe id=bananapancakes width="560" height="315" src="https://www.youtube.com/embed/cUYSGojUuAU" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+    <div id=discoveries>
+      <h3>Places to Discover Mashups</h3>
           <ul>
             <li><a href= "https://www.youtube.com/results?search_query=mashups">YouTube</a></li>
             <li><a href= "https://soundcloud.com/search/sounds?q=mashups&filter.genre_or_tag=mashup">SoundCloud</a></li>
             <li>Many host music on their own personal <a href= "http://www.pomdeter.com/mashups/archive/best_of/pomDeter%20-%20Call%20Me%20A%20Hole%28really%20bad%20Friday%20night%29.mp3">websites</a></li>
-<div>
-    <h3>Please take part in our survey!</h3>
-      <form action="thanks.html" method="post">
-        <div>
+    </ul></div>
+    <div>
+      <h3>Please take part in our survey!</h3>
+    </div>
+      <form id="survey" action="thanks.html" method="post">
+    <div>
         <label>Pick the music genre you listen to most frequently</label> <br>
         <input type="radio" name="music" value="pop"> Pop<br>
         <input type="radio" name="music" value="rock"> Rock<br>
@@ -36,7 +47,7 @@
         <input type="radio" name="music" value="country"> Country<br>
         <input type="radio" name="music" value="soul-blues"> Soul/Blues<br>
         <input type="radio" name="music" value="classical"> Classical
-      </div><br>
+      </div> <br>
       <div>
         <label>Pick the musical era you enjoy the most</label>
         <select name="MusicEra">
@@ -46,11 +57,11 @@
           <option value="70s">70s</option>
           <option value="60s or Earlier">60s or Earlier</option>
         </select>
-      </div><br>
+      </div> <br>
       <div>
       <label>Name a musical artist you would like to see in a mashup</label>
       <input type="text" name="artist">
-    </div><br>
+    </div> <br>
       <button type="submit">Submit Survey</button>
       </form>
     </div> <br> <br>
@@ -60,6 +71,7 @@
       accounts, make individual posts, and rate one anothers posts. The posts that
     appear towards the top of the page are sorted there by an algorithm that takes
   into account the amount of time the post has been on the website and the amount
-  of votes it has recieved."</footer>
+  of votes it has recieved."
+  </footer>
   </body>
 </html>
