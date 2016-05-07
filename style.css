@@ -7,7 +7,7 @@ body {
   color: rgb(24,21,28);
   padding: 20px;
   max-width: 900px;
-  min-width: 500px;
+  min-width: 300px;
 }
 
 #sidebar {
@@ -68,15 +68,15 @@ footer {
   font-weight: bolder;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 body {
 padding: 5%;
 font-size:50%;
 }
 
-.calming, iframe, img {
-    padding: 1px;
+img{
     width: 30%;
-    height: 30%
+    height: 30%;
 }
+
 }
