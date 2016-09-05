@@ -1,14 +1,11 @@
 body {
-  background-image: url(stop_here.gif);
+  background-image: url(http://sharonkgilbert.com/wp-content/uploads/2015/12/Under-construction.png);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 70%, 70%;
-  background-color: black;
-  color: orange;
-  font-weight: bolder;
+  background-size: 50%;
 }
 
-h1{
+/*h1{
   position: relative;
   bottom: 30%;
   left: 20%;
@@ -32,7 +29,7 @@ h1{
  40%, 60% {
    transform: translate3d(4px, 0, 0);
  }
-}
+}*/
 
 
 /*
