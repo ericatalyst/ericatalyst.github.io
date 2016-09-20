@@ -29,18 +29,13 @@ margin-top: 5em;
 margin-bottom: 2em;
 }
 
-
-#twitter-widget-0 {
-  width: 40% !important;
-}
-
 .icon_link img{
   width: 60px;
   height: 60px;
   margin-right: 10px;
   margin-top: .5em;
   border-radius: 15px;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .icon_link img:hover{
@@ -61,15 +56,11 @@ margin-bottom: 2em;
   padding-right: 50px;
   padding-left: 50px;
   display: inline-block;
-}
-
-.tab {
   text-decoration: none;
   font-family: 'Jayadhira';
   font-size: 40px;
   color: #E9BC6A;
   text-shadow: 4px 4px 4px #410C06;
-  padding: 25px;
 }
 
 .tab:hover {
@@ -81,10 +72,8 @@ margin-bottom: 2em;
   -webkit-box-shadow: inset 0 0 40em black;
   box-shadow: inset 0 0 40em black;
   border-radius: 20px;
-  width: 100%;
-  padding: 5em;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 2em;
+  margin 0;
   display: none;
 }
 
