@@ -141,3 +141,36 @@ margin-bottom: 2em;
     margin-top: 3.5em;
     margin-bottom: 3.5em;
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  #name{
+    width:100%;
+  }
+  #top{
+    height: 6em;
+    width: 6em;
+    display: none;
+  }
+
+  #top:hover{
+    height: 7em;
+    width: 7em;
+  }
+  .icon_link img{
+    width: 80px;
+    height: 80px;
+  }
+  #name{
+    font-size: 80px;
+  }
+
+  .tab{
+    font-size: 60px;
+    width: 60%;
+    padding-top: 1.3em;
+  }
+}
