@@ -95,30 +95,22 @@ margin-bottom: 2em;
 
 .exp p{
   text-align: justify;
-  text-justify: inter-word;
+  /*text-justify: inter-word;*/
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 4em;
 }
 
 .date{
-  font-size: 24px;
+  font-size: 35px;
   font-weight: bold;
-}
-
-.box{
-    width: 29%;
-    display: inline-block;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    text-align: center;
-    vertical-align: middle;
 }
 
 #top{
   height: 3em;
   width: 3em;
   display: none;
+  margin: 2em;
 }
 
 #top:hover{
@@ -126,22 +118,9 @@ margin-bottom: 2em;
   width: 4em;
 }
 
-#one{
-    -ms-transform: rotate(9deg); /* IE 9 */
-    -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
-    transform: rotate(9deg);
-    margin-top: 3.5em;
-    margin-bottom: 3.5em;
+#attributes{
+  margin: 4em;
 }
-
-#two{
-    -ms-transform: rotate(-9deg); /* IE 9 */
-    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
-    transform: rotate(-9deg);
-    margin-top: 3.5em;
-    margin-bottom: 3.5em;
-}
-
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
@@ -164,13 +143,30 @@ margin-bottom: 2em;
     width: 80px;
     height: 80px;
   }
+
   #name{
-    font-size: 80px;
+    font-size: 120px;
   }
 
   .tab{
-    font-size: 60px;
-    width: 60%;
+    font-size: 70px;
+    width: 70%;
     padding-top: 1.3em;
+  }
+
+  .title, .exp a{
+    font-size: 90px;
+  }
+
+  .box{
+      width: 50%;
+      padding: 0;
+  }
+  #center{
+    width: 100%;
+  }
+  .date{
+    font-size: 65px;
+    font-weight: bold;
   }
 }
