@@ -5,6 +5,8 @@ html {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  font-family: 'Merriweather';
+  color: #F4CA70;
 }
 
 @font-face {
@@ -14,16 +16,16 @@ html {
   src: url('assets/fonts/Jayadhira.ttf');
 }
 
-.name{
+#name{
   font-family: 'Jayadhira';
   font-size: 75px;
   color: #E9BC6A;
-  padding-bottom: 40px !important;
+  padding-bottom: 24px !important;
   text-shadow: 4px 4px 4px #410C06;
 }
 
 .main{
-margin-top: 10em;
+margin-top: 5em;
 margin-bottom: 2em;
 }
 
@@ -53,13 +55,6 @@ margin-bottom: 2em;
   text-shadow: 4px 4px 4px #410C06;
 }
 
-// h5{
-//   margin-bottom: 0;
-//   font-family: 'Jayadhira';
-//   color: white;
-//   font-size: 1.8em;
-// }
-
 .tab{
   margin: 0;
   padding-bottom: 20px;
@@ -68,29 +63,29 @@ margin-bottom: 2em;
   display: inline-block;
 }
 
-.tab a {
+.tab {
   text-decoration: none;
   font-family: 'Jayadhira';
   font-size: 40px;
   color: #E9BC6A;
   text-shadow: 4px 4px 4px #410C06;
-  &:hover{
-    color: #EC9017;
-  }
+  padding: 25px;
 }
 
+.tab:hover {
+  color: #EC9017;
+}
 
-.tabpg{
+.tabpg {
   -moz-box-shadow: inset 0 0 40em black;
   -webkit-box-shadow: inset 0 0 40em black;
   box-shadow: inset 0 0 40em black;
   border-radius: 20px;
-  width: 100%;
+  width: 85%;
   padding: 5em;
-  color: white;
-  padding: 0;
   margin-left: auto;
   margin-right: auto;
+  display: none;
 }
 
 .exp {
@@ -103,9 +98,10 @@ margin-bottom: 2em;
     font-size: 40px;
     color: #E9BC6A;
     text-shadow: 4px 4px 4px #410C06;
-  &:hover{
-    color: #EC9017;
-  }
+}
+
+.exp a:hover{
+  color: #EC9017;
 }
 
 .exp p{
@@ -126,16 +122,19 @@ margin-bottom: 2em;
     display: inline-block;
     margin-top: 3em;
     margin-bottom: 3em;
-      text-align: center;
-      vertical-align: middle;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.top{
-  padding-top: 3em;
-  &:hover{
-    font-weight: bolder;
-    color: #EC9017;
-  }
+#top{
+  height: 3em;
+  width: 3em;
+  display: none;
+}
+
+#top:hover{
+  height: 4em;
+  width: 4em;
 }
 
 #one{
