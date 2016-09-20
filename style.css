@@ -20,7 +20,7 @@ html {
   font-family: 'Jayadhira';
   font-size: 75px;
   color: #E9BC6A;
-  padding-bottom: 24px !important;
+  padding-bottom: 80px !important;
   text-shadow: 4px 4px 4px #410C06;
 }
 
@@ -55,6 +55,7 @@ margin-bottom: 2em;
   padding-bottom: 20px;
   padding-right: 50px;
   padding-left: 50px;
+  width: 30%;
   display: inline-block;
   text-decoration: none;
   font-family: 'Jayadhira';
@@ -146,6 +147,7 @@ margin-bottom: 2em;
 
   #name{
     font-size: 120px;
+    padding-bottom: 24px !important;
   }
 
   .tab{
