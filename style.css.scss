@@ -1,0 +1,155 @@
+html {
+  text-align: center;
+  background-image: url('assets/images/nocturne.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: 'Jayadhira';
+  font-weight: normal;
+  font-style: normal;
+  src: url('assets/fonts/Jayadhira.ttf');
+}
+
+.name{
+  font-family: 'Jayadhira';
+  font-size: 75px;
+  color: #E9BC6A;
+  padding-bottom: 40px !important;
+  text-shadow: 4px 4px 4px #410C06;
+}
+
+.main{
+margin-top: 10em;
+margin-bottom: 2em;
+}
+
+
+#twitter-widget-0 {
+  width: 40% !important;
+}
+
+.icon_link img{
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-top: .5em;
+  border-radius: 15px;
+  opacity: 0.7;
+}
+
+.icon_link img:hover{
+  opacity: 1;
+}
+
+.title{
+  text-decoration: none;
+  font-family: 'Jayadhira';
+  font-size: 50px;
+  color: #E9BC6A;
+  text-shadow: 4px 4px 4px #410C06;
+}
+
+// h5{
+//   margin-bottom: 0;
+//   font-family: 'Jayadhira';
+//   color: white;
+//   font-size: 1.8em;
+// }
+
+.tab{
+  margin: 0;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: inline-block;
+}
+
+.tab a {
+  text-decoration: none;
+  font-family: 'Jayadhira';
+  font-size: 40px;
+  color: #E9BC6A;
+  text-shadow: 4px 4px 4px #410C06;
+  &:hover{
+    color: #EC9017;
+  }
+}
+
+
+.tabpg{
+  -moz-box-shadow: inset 0 0 40em black;
+  -webkit-box-shadow: inset 0 0 40em black;
+  box-shadow: inset 0 0 40em black;
+  border-radius: 20px;
+  width: 100%;
+  padding: 5em;
+  color: white;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exp {
+    padding-right: 2em;
+}
+
+.exp a{
+    text-decoration: none;
+    font-family: 'Jayadhira';
+    font-size: 40px;
+    color: #E9BC6A;
+    text-shadow: 4px 4px 4px #410C06;
+  &:hover{
+    color: #EC9017;
+  }
+}
+
+.exp p{
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 4em;
+}
+
+.date{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.box{
+    width: 29%;
+    display: inline-block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+      text-align: center;
+      vertical-align: middle;
+}
+
+.top{
+  padding-top: 3em;
+  &:hover{
+    font-weight: bolder;
+    color: #EC9017;
+  }
+}
+
+#one{
+    -ms-transform: rotate(9deg); /* IE 9 */
+    -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    transform: rotate(9deg);
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+}
+
+#two{
+    -ms-transform: rotate(-9deg); /* IE 9 */
+    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
+    transform: rotate(-9deg);
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+}
