@@ -1,0 +1,71 @@
+html {
+  text-align: left;
+  background-color: black;
+  font-family: 'Inconsolata';
+  font-size: 16px;
+  color: green;
+}
+
+.tab {
+  margin: .4em;
+}
+
+.tabpg {
+  margin: 4em;
+  display: none;
+}
+
+#typed {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-left: 7em;
+}
+
+#summary {
+  padding-bottom: .8em;
+}
+
+#summary:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+#experience {
+  padding-bottom: .8em;
+}
+
+#experience:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+#projects {
+  padding-bottom: .8em;
+}
+
+#projects:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+.openers{
+  display: none;
+}
+
+.closers{
+  display: none;
+}
+
+.type-it1 {
+  padding-bottom: 1em;
+  font-size: 24px;
+}
+
+.title, a {
+  font-size: 20px;
+}
+
+a {
+  color: purple;
+}

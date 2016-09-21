@@ -3,134 +3,126 @@
   <head>
     <meta charset="utf-8">
     <title>ERICATALYST</title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <script src="jquery.js"></script>
-    <script src="application.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.2.3/typeit.min.js"></script>
+    <script src="javascript/application.js"></script>
   </head>
   <body>
 
-    <div class='main'>
-    <div id='name'>Erica Rufrano</div>
-    <div class="tabs">
+<div class='code'>
+Programmer.prototype.onBrand = function() {<br>
+<span class='tab'></span>return (this.personality())/this.visitorAttentionSpan.length;<br>
+};<br>
+<br>
+Programmer.prototype.qualified = function() {<br>
+<span class='tab'></span>return this.experience.reduce(function(work, education){ return work + education })<br>
+};<br>
+<br>
+Programmer.prototype.makesThings = function() {<br>
+<span class='tab'></span>for (var i = 0; i < this.projects.length; i++) {<br>
+<span class='tab'></span><span class='tab'></span>this.projects[i].linkCodeBase()<br>
+<span class='tab'></span>}<br>
+};
+</div>
 
-    <div class='tab' id='summary'>
-    Hello World<br>
-    </div>
+<div id='typed'>
+<div class="type-it1"></div>
+<div><span class='openers' id='opener2'>console.log(</span><span class="type-it2" id='summary'></span><span class='closers' id='closer2'>);</span></div>
+<div><span class='openers' id='opener3'>console.log(</span><span class="type-it3" id="experience"></span><span class='closers' id='closer3'>);</span></div>
+<div><span class='openers' id='opener4'>console.log(</span><span class="type-it4" id="projects"></span><span class='closers' id='closer4'>);</span></div>
+</div>
 
-    <div class='tab' id='experience'>
-    Experience
-    </div>
+<div class='tabpg' id='summarypg'>
+<div class='title'>Are You There Internet? It's Me, Erica.</div>
+<p>
+I am inspired to do work that is impactful and constructive.<br>
+I made a hard turn out of business and into web development because I enjoy creating and I want my daily efforts to result in a meaningful product that people can utilize.<br>
+I am passionate about communication: speaking, writing, and listening to others.
+<br><br>
+I am currently seeking full-time work and skill-based volunteer opportunities -- and always eager to collaborate on a hackathon!
+</p>
 
-    <div class='tab' id='projects'>
-    Projects
-    </div>
+<div id='attributes'>
+<span>//Creative Writer</span><span>Constant Creator</span><span>Eternal Student</span><span>Fullstack Developer</span><span>Museum Denizen</span><span>Passable Runner</span><span>Peanut Butter Connoisseur</span><span>Podcast Junkie</span>
+</div>
 
-    </div>
-    </div>
+<div id='contact_links'>erica825978@gmail.com</div>
+<span class='icon_link'><a href='https://github.com/ericatalyst'><img src= 'assets/images/github.png' alt="Github Ericatalyst"></a></span>
+<span class='icon_link'><a href='https://www.linkedin.com/in/erica-rufrano'><img src= 'assets/images/linkedin.png' alt="LinkedIn Erica"></a></span>
+<span class='icon_link'><a href='https://twitter.com/ericatalyst'><img src= 'assets/images/twitter.png' alt="Twitter Ericatalyst"></a></span>
+<span class='icon_link'><a href='https://www.instagram.com/ericatalyst'><img src= 'assets/images/instagram.png' alt="Instagram Ericatalyst"></a></span><br>
 
-    <div class='tabpg' id='summarypg'>
-    <div class='date'>Are You There Internet? It's Me, Erica.</div><br><br>
+</div>
 
-    <div id='center'>
-    <p>
-    I am inspired to do work that is impactful and constructive.<br>
-    I made a hard turn out of business and into web development because I enjoy creating and I want my daily efforts to result in a meaningful product that others can utilize.<br>
-    I am passionate about communication: speaking, writing, and listening to others.
-    <br>
-    <br>
-    I am currently seeking full-time work and skill-based volunteer opportunities -- and always eager to collaborate on a hackathon!
-    </p>
+<div class='tabpg' id='projectspg'>
 
-    <div id='attributes'>
-    &#x269c;  <span>Creative Writer</span>  &#x269c;  <span>Constant Creator</span>  &#x269c;  <span>Eternal Student</span>  &#x269c;  <span>Fullstack Developer</span>  &#x269c;  <span>Museum Denizen</span>  &#x269c;  <span>Passable Runner</span>  &#x269c;  <span>Peanut Butter Connoisseur</span> &#x269c; <span>Podcast Junkie</span>  &#x269c;
-    </div>
-    </div>
-    <div id='contact_links'>
-      erica825978@gmail.com<br><br>
-    <span class='icon_link'><a href='https://github.com/ericatalyst'><img src= 'assets/images/github.png' alt="Github Ericatalyst"></a></span>
-    <span class='icon_link'><a href='https://www.linkedin.com/in/erica-rufrano'><img src= 'assets/images/linkedin.png' alt="LinkedIn Erica"></a></span>
-    <span class='icon_link'><a href='https://twitter.com/ericatalyst'><img src= 'assets/images/twitter.png' alt="Twitter Ericatalyst"></a></span>
-    <span class='icon_link'><a href='https://www.instagram.com/ericatalyst'><img src= 'assets/images/instagram.png' alt="Instagram Ericatalyst"></a></span><br>
-    </div>
-    </div>
-    <div class='tabpg' id='projectspg'>
+<div class='title'>Breadcrumb</div>
+<span class='icon_link'><a href='https://github.com/ericatalyst/Breadcrumb'><img src= 'assets/images/github.png' alt="Code"></a></span>
+<span class='icon_link'><a href='http://bread-crumb.herokuapp.com/'><img src= 'assets/images/heroku.png' alt="Heroku App"></a></span>
+<br>August 2016<br>
+<p>Lead back-end development on a four-person team over eight days.
+Breadcrumb is a mobile-friendly Rails 5.0 app currently launched on Heroku. Upon registration, user is redirected to the FAQ page which includes detailed instructions on trail creation.
+</p>
 
-    <div class='exp'>
-    <div class='title'>Breadcrumb</div>
-    <span class='icon_link'><a href='https://github.com/ericatalyst/Breadcrumb'><img src= 'assets/images/github.png' alt="Code"></a></span>
-    <span class='icon_link'><a href='http://bread-crumb.herokuapp.com/'><img src= 'assets/images/heroku.png' alt="Heroku App"></a></span>
-    <br>August 2016<br>
-    <p>Lead back-end development on a four-person team over eight days.
-    Breadcrumb is a mobile-friendly Rails 5.0 app currently launched on Heroku. Upon registration, user is redirected to the FAQ page which includes detailed instructions on trail creation.
-    </p>
-    </div>
+<div class='title'>AirBnBFF</div>
+<span class='icon_link'><a href='https://github.com/ericatalyst/AirBnBFF'><img src= 'assets/images/github.png' alt="Github Code"></a></span>
+<br>August 2016<br>
+<p>Tasked with creating a recommendation system that could improve user experience and tackle some of the discrimination-related problems plaguing AirBnB, I was the team lead and back end developer for a hackathon-winning project. Over 48-hours, our four-person team created an AirBnB mockup with a Watson API driven recommendation algorithm.
+Github code currently has full seed file; follow README.md instructions for Watson integration.
+</p>
 
-    <div class='exp'>
-    <div class='title'>AirBnBFF</div>
-    <span class='icon_link'><a href='https://github.com/ericatalyst/AirBnBFF'><img src= 'assets/images/github.png' alt="Github Code"></a></span>
-    <br>August 2016<br>
-    <p>Tasked with creating a recommendation system that could improve user experience and tackle some of the discrimination-related problems plaguing AirBnB, I was the team lead and back end developer for a hackathon-winning project. Over 48-hours, our four-person team created an AirBnB mockup with a Watson API driven recommendation algorithm.
-    Github code currently has full seed file; follow README.md instructions for Watson integration.
-    </p>
-    </div>
+<div class='title'>Battleship</div>
+<span class='icon_link'><a href='https://github.com/ericatalyst/Battleship'><img src= 'assets/images/github.png' alt="Github Code"></a></span>
+<br>July 2016<br>
+<p>
+  A Rails 5.0 web app of our version of the game Battleship. All team members worked on several aspects of our first major group project with Rails. My focus was on route creation/protection and several design aspects. The web app can be launched after cloning from Github; full description in README.md.
+</p>
 
-    <div class='exp'>
-    <div class='title'>Battleship</div>
-    <span class='icon_link'><a href='https://github.com/ericatalyst/Battleship'><img src= 'assets/images/github.png' alt="Github Code"></a></span>
-    <br>July 2016<br>
-    <p>
-      A Rails 5.0 web app of our version of the game Battleship. All team members worked on several aspects of our first major group project with Rails. My focus was on route creation/protection and several design aspects. The web app can be launched after cloning from Github; full description in README.md.
-    </p>
-    </div>
 
-    </div>
+</div>
 
-    <div class='tabpg' id='experiencepg'>
+<div class='tabpg' id='experiencepg'>
 
-    <div class='exp'>
-    <span><a href='http://devbootcamp.com/'>Dev Bootcamp</a></span><br>New York, NY<br>
-    <span class='date'>Full-Stack Development</span>  (March 2016 - September 2016)<br>
-    <p>
-    Created Rails web applications in groups of 2-4 developers under strict deadline.<br>
-    Practiced Agile-development procedures, test-driven design, and git workflow.<br>
-    Ran apps locally on Sinatra and Postgres; launched publicly using Heroku.<br>
-    Utilized vanilla JavaScript, JQuery, AJAX, and React.js for interactive front end; made HTML5 and CSS3 responsive with Bootstrap.<br>
-    Developed back end both on Rails and working directly with Active Record ORM and SQLite database.
-    Completed Empathetic Engineering course developed team skills, interpersonal communication techniques, empathetic and effective feedback.<br>
-    </p><br><br>
-    </div>
+<span><a href='http://devbootcamp.com/'>Dev Bootcamp</a></span><br>New York, NY<br>
+<span class='title'>Full-Stack Development</span>  (March 2016 - September 2016)<br>
+<p>
+Created Rails web applications in groups of 2-4 developers under strict deadline.<br>
+Practiced Agile-development procedures, test-driven design, and git workflow.<br>
+Ran apps locally on Sinatra and Postgres; launched publicly using Heroku.<br>
+Utilized vanilla JavaScript, JQuery, AJAX, and React.js for interactive front end; made HTML5 and CSS3 responsive with Bootstrap.<br>
+Developed back end both on Rails and working directly with Active Record ORM and SQLite database.
+Completed Empathetic Engineering course developed team skills, interpersonal communication techniques, empathetic and effective feedback.<br>
+</p>
 
-    <div class='exp'>
-    <span><a href='https://randpc.com/rand-profile'>RAND Engineering & Architecture, DPC</a></span> <br>New York, NY<br>
-    <span class='date'>Business Development Associate</span>  (May 2014 - May 2016)<br>
-    <p>Liaison between technical professionals and clients for one of the fastest growing private companies on Inc.’s 5000 List.<br>
-    Company representative at industry trade shows; initiated contact with potential clients.<br>
-    Managed business accounts from initial inquiry to secured down payment; moderated conference calls with managing agents and Board representatives.<br>
-    Worked directly with in-house programmer to make internal filing system more user-friendly.<br>
-    Headed project to produce several hundred facade inspection proposals over a time-sensitive period; issued follow-up proposals on active jobs, developing them into profitable repair programs.<br>
-    Maintained client service responsibilities while working remotely.<br>
-    </p>
-    <span class='date'>Front Desk Receptionist</span>  (February 2013 - May 2014)<br>
-    <p>Supervised office reception, scheduled conferences, created daily Excel company schedule, ordered office material, generated all-staff announcements.<br>
-    Administrative assistance; proofread and formatted engineering reports according to company standard; updated and filed account information for active jobs in digital filing system.
-    </p><br><br>
-    </div>
+<span><a href='https://randpc.com/rand-profile'>RAND Engineering & Architecture, DPC</a></span> <br>New York, NY<br>
+<span class='title'>Business Development Associate</span>  (May 2014 - May 2016)<br>
+<p>Liaison between technical professionals and clients for one of the fastest growing private companies on Inc.’s 5000 List.<br>
+Company representative at industry trade shows; initiated contact with potential clients.<br>
+Managed business accounts from initial inquiry to secured down payment; moderated conference calls with managing agents and Board representatives.<br>
+Worked directly with in-house programmer to make internal filing system more user-friendly.<br>
+Headed project to produce several hundred facade inspection proposals over a time-sensitive period; issued follow-up proposals on active jobs, developing them into profitable repair programs.<br>
+Maintained client service responsibilities while working remotely.<br>
+</p>
+<span class='title'>Front Desk Receptionist</span>  (February 2013 - May 2014)<br>
+<p>Supervised office reception, scheduled conferences, created daily Excel company schedule, ordered office material, generated all-staff announcements.<br>
+Administrative assistance; proofread and formatted engineering reports according to company standard; updated and filed account information for active jobs in digital filing system.
+</p>
 
-    <div class='exp'>
-    <span><a href='http://www.isvolunteers.org/'>International Student Volunteers</a></span><br>
-    Chiang Mai, Thailand<br>
-    <span class='date'>Social Community Development Volunteer</span>(May 2012 - July 2012)<br>
-    <p>Taught grade-school English, contributed to infrastructure improvement projects in disadvantaged rural communities.</p>
-    </div><br><br>
+<span><a href='http://www.isvolunteers.org/'>International Student Volunteers</a></span><br>
+Chiang Mai, Thailand<br>
+<span class='title'>Social Community Development Volunteer</span>(May 2012 - July 2012)<br>
+<p>Taught grade-school English, contributed to infrastructure improvement projects in disadvantaged rural communities.</p>
 
-    <div class='exp'>
-    <a href='http://www.usf.edu/'>University of South Florida</a><br> Tampa, FL<br>
-    Class of 2012<br>
-    <span class='date'>Psychology, B.A.</span>
-    </div>
+<a href='http://www.usf.edu/'>University of South Florida</a><br> Tampa, FL<br>
+Class of 2012<br>
+<span class='title'>Psychology, B.A.</span>
 
-    </div>
-  <img id='top' src= 'assets/images/gold_arrow.png' alt="To Top">
-  </body>
-</html>
+</div>
+
+
+
+
+  <body>
+<html>

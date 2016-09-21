@@ -3,6 +3,7 @@ html {
   background-image: url('assets/images/nocturne.jpg');
   background-position: center;
   background-size: cover;
+  /*background-color: #113B2C;*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: 'Merriweather';
