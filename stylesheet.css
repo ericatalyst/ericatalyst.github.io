@@ -82,3 +82,51 @@ html {
 a {
   color: purple;
 }
+
+.attr {
+  color: grey;
+  margin: 1em;
+}
+
+#summarypg{
+  width: 50%;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+.code{
+  font-size: 14px;
+}
+
+#typed{
+  font-size: 23px;
+  line-height: 3em;
+}
+
+.title, a{
+  font-size: 25px;
+}
+
+#summarypg{
+  width: 100%;
+}
+
+.icon_link img{
+  width: 80px;
+  height: 80px;
+}
+
+html{
+  margin-right: 1.2em;
+  margin-top: 3em;
+  margin-bottom: 7em;
+}
+
+#experiencepg{
+  font-size: 15px;
+}
+  }
