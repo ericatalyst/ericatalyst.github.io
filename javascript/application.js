@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 $('.type-it1').typeIt({
   strings: "var ericaRufrano = new Programmer;",
-  speed: 20,
+  speed: 75,
   autoStart: true,
   cursor: false
 });
@@ -10,21 +10,21 @@ $('.type-it2').typeIt({
   strings: "ericaRufrano.onBrand()",
   speed: 90,
   cursor: false,
-  startDelay: 2400
+  startDelay: 3500
 });
 
 $('.type-it3').typeIt({
   strings: "ericaRufrano.qualified()",
   speed: 90,
   cursor: false,
-  startDelay: 4800
+  startDelay: 6000
 });
 
 $('.type-it4').typeIt({
   strings: "ericaRufrano.makesThings()",
   speed: 90,
   cursor: false,
-  startDelay: 7200
+  startDelay: 8500
 });
 
 $('#summary').click(function(e) {
