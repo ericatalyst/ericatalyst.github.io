@@ -13,7 +13,7 @@
 
 <div class='code'>
 Programmer.prototype.onBrand = function() {<br>
-<span class='tab'></span>return (this.personality())/this.visitorAttentionSpan.length;<br>
+<span class='tab'></span>return this.personality/this.visitorAttentionSpan.length;<br>
 };<br>
 <br>
 Programmer.prototype.qualified = function() {<br>
@@ -22,7 +22,7 @@ Programmer.prototype.qualified = function() {<br>
 <br>
 Programmer.prototype.makesThings = function() {<br>
 <span class='tab'></span>for (var i = 0; i < this.projects.length; i++) {<br>
-<span class='tab'></span><span class='tab'></span>this.projects[i].linkCodeBase();<br>
+<span class='tab'></span><span class='tab'></span> return this.projects[i].linkCodeBase();<br>
 <span class='tab'></span>}<br>
 };
 </div>
